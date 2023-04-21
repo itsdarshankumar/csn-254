@@ -36,3 +36,14 @@ KubePack is relevant because it simplifies the complex process of deploying and 
 ![WhatsApp Image 2023-04-21 at 22 44 26](https://user-images.githubusercontent.com/52401356/233698160-aa48a052-72d7-42fc-ba3b-5cd64067b572.jpg)
 
 
+## Authors
+
+- [Darshan Kumar](https://github.com/itsdarshankumar)
+- [Tushar Tembhurne](https://github.com/tusharrr17)
+- [Lakshya Joshi](https://github.com/lakshya1310)
+- [Sannnidhy Prabhakar](https://github.com/Zugzwang1411)
+- [Partha Kaushik](https://github.com/parthanos)
+- [Navin Kumar](https://github.com/nkelkins)
+- [Anikesh Parashar](https://github.com/an1k3sh)
+
+
