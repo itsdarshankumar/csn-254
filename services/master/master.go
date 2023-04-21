@@ -7,6 +7,7 @@ import (
 
 	"github.com/itsdarshankumar/CSN-254/services/cluster"
 	"github.com/itsdarshankumar/CSN-254/services/imagemaker"
+	"github.com/itsdarshankumar/CSN-254/services/fetch"
 	"github.com/spf13/cobra"
 )
 
@@ -15,6 +16,22 @@ func DeployerMaster() *cobra.Command {
 		Use:   "deploy",
 		Short: "deploy your source code",
 		Run:   Deployer,
+	}
+	// Add a "path" flag to the "deploy" command
+	cmd.Flags().String("name", "", "the name to the application")
+	// Add a "path" flag to the "deploy" command
+	cmd.Flags().String("path", "", "the path to the application")
+	// Add a "service port" flag to the "deploy" command
+	cmd.Flags().String("port", "", "the port to the application")
+
+	return cmd
+}
+
+func Fetch() *cobra.Command{
+	cmd := &cobra.Command{
+		Use:   "fetch",
+		Short: "fetch your deployments",
+		Run:   fetch.Fetch,
 	}
 	// Add a "path" flag to the "deploy" command
 	cmd.Flags().String("name", "", "the name to the application")

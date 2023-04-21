@@ -18,6 +18,7 @@ func main() {
 
 	// Add subcommands
 	rootCmd.AddCommand(master.DeployerMaster())
+	rootCmd.AddCommand(master.Fetch())
 
 	if err := rootCmd.Execute(); err != nil {
 		fmt.Fprintln(os.Stderr, err)
