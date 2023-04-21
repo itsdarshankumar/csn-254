@@ -28,8 +28,11 @@ KubePack is relevant because it simplifies the complex process of deploying and 
 - This will install all the packages from go.mod file
 - Now, run the command `go build`
 - This will create a binary named `CSN-254`
-- ![WhatsApp Image 2023-04-21 at 22 36 57](https://user-images.githubusercontent.com/52401356/233698104-11e69724-6f8c-4720-8b68-e592204c00bc.jpg)
+
+![WhatsApp Image 2023-04-21 at 22 36 57](https://user-images.githubusercontent.com/52401356/233698104-11e69724-6f8c-4720-8b68-e592204c00bc.jpg)
+
 - Test the binary by executing the command `./CSN-254`
-- ![WhatsApp Image 2023-04-21 at 22 44 26](https://user-images.githubusercontent.com/52401356/233698160-aa48a052-72d7-42fc-ba3b-5cd64067b572.jpg)
+
+![WhatsApp Image 2023-04-21 at 22 44 26](https://user-images.githubusercontent.com/52401356/233698160-aa48a052-72d7-42fc-ba3b-5cd64067b572.jpg)
 
 
